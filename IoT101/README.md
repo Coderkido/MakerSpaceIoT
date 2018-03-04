@@ -1,8 +1,8 @@
 In this workshop, we will be... 
 
-1: Setting you up with Node-Red and the Arduino IDE (IF you haven't already)
-2: Programming a WEMOSD1 Mini to connect to a WiFi Access Point and recieve a command from Node-Red 
-3: Setting up Node-Red to send a message to a WEMOSD1 Mini, to turn on or off a connected relay. 
+1. Setting you up with Node-Red and the Arduino IDE (IF you haven't already)
+2. Programming a WEMOSD1 Mini to connect to a WiFi Access Point and recieve a command from Node-Red 
+3. Setting up Node-Red to send a message to a WEMOSD1 Mini, to turn on or off a connected relay. 
 
 That's it! 
 
