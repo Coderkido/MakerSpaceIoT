@@ -5,7 +5,7 @@
 ## [WIKI](https://github.com/Coderkido/MakerSpaceIoT/wiki)
 
 # Contact Us:
-## James : [Email](jgrrule@gmail.com) OR [Telegram](https://telegram.me/jgrrule)
-## Ethan : [Email](WhatsyouremailEthan) 
+## James (Coderkido) : [Email](jgrrule@gmail.com) OR [Telegram](https://telegram.me/jgrrule)
+## Ethan (Riptho) : [Email](WhatsyouremailEthan) 
 
 
