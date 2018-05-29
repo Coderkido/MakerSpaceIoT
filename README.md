@@ -6,6 +6,6 @@
 
 # Contact Us:
 ## James (Coderkido) : [Email](jgrrule@gmail.com) OR [Telegram](https://telegram.me/jgrrule)
-## Ethan (Riptho) : [Email](WhatsyouremailEthan) 
+## Ethan (Riptho) : [Email](ethandunne5@gmail.com) 
 
 
