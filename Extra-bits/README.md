@@ -1,1 +1,1 @@
-Just some extra things for you to play wit, mainly random Node-Red flows 
+Just some extra things for you to play with, mainly random Node-Red flows 
