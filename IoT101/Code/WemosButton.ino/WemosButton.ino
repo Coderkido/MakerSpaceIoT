@@ -12,8 +12,8 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network
-const char* ssid = "maker_spot";
-const char* password = "uowmsciot";
+const char* ssid = "";
+const char* password = "";
 // The MQTT Server you want to use, this is https://test.mosquitto.org/ 
 const char* mqtt_server = "test.mosquitto.org"; 
 
