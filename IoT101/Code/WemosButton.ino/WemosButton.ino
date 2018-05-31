@@ -12,8 +12,8 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "maker_spot";
+const char* password = "uowmsciot";
 // The MQTT Server you want to use, this is https://test.mosquitto.org/ 
 const char* mqtt_server = "test.mosquitto.org"; 
 
@@ -24,9 +24,9 @@ long lastMsg = 0;
 char msg[50];
 int value = 0;
 
-const int buttonPin = D3; // For the WeMos D1 Mini Button Shield
+const int buttonPin = 12; // For the WeMos D1 Mini Button Shield
 int buttonState = 0;  // Initialize the button state
-const int ledPin = BUILTIN_LED; 
+const int ledPin = 2; 
 
 void setup() {
         Serial.begin(115200);
