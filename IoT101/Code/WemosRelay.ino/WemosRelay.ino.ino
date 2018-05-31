@@ -1,6 +1,6 @@
 /*
- Board: WeMos D1 MINI (https://tronixlabs.com.au/arduino/boards/wireless/wemos-d1-mini-arduino-compatible-esp8266-wifi-australia/)
- Shield: https://tronixlabs.com.au/esp8266/wemos-esp8266/wemos-d1-mini-relay-shield-v2-australia/
+ Board: Nodemcu v3
+ Shield: 3v 1 chan relay 
  Libraries: 
   ESP8266Wifi (Add via Additional Boards Link): http://www.instructables.com/id/Wemos-ESP8266-Getting-Started-Guide-Wemos-101/
   PubSubClient (Add via Library Manager): https://github.com/knolleary/pubsubclient
@@ -12,8 +12,8 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network
-const char* ssid = "";
-const char* password = "";
+const char* ssid = ""; //Change this
+const char* password = ""; //change this
 // The MQTT Server you want to use, this is https://test.mosquitto.org/ 
 const char* mqtt_server = "test.mosquitto.org"; 
 
@@ -24,9 +24,9 @@ long lastMsg = 0;
 char msg[50];
 int value = 0;
 
-const int relayPin = D1; // For the WeMos D1 Mini Relay Shield
+const int relayPin = 12; // For D6 pin 
 const long interval = 500; // The delay ensures the relay cannot be triggered too quickly 
-const int ledPin = BUILTIN_LED;
+const int ledPin = 2; //
 
 void setup() {
         Serial.begin(115200);
@@ -61,7 +61,7 @@ void reconnect() {
                 clientId += String(random(0xffff), HEX);
                 if (client.connect(clientId.c_str())) {
                         Serial.println("connected");
-                        client.subscribe("/MSIOT101/OUT");
+                        client.subscribe("/MSIOT101/OUT"); //Change subscribe topic so you're only controlling your own device
                 } else {
                         Serial.print("failed, rc=");
                         Serial.print(client.state());
